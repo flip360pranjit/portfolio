@@ -1,0 +1,28 @@
+/* For Developer Mode */
+.dev {
+  --primary-color: #141e61;
+  --secondary-color: #00bfa6;
+  --text-color: #c4c4c4;
+}
+
+/* For Artist Mode */
+.artist {
+  --primary-color: #d62828;
+  --secondary-color: #0077b6;
+  --text-color: #f5f5f5;
+}
+
+/* Applying colors based on the theme */
+body.dev {
+  --bg-color: var(--primary-color);
+  --accent-color: var(--secondary-color);
+  --text: var(--text-color);
+}
+
+body.artist {
+  --bg-color: var(--primary-color);
+  --accent-color: var(--secondary-color);
+  --text: var(--text-color);
+}
+
+/* Apply these variables to your elements throughout your app using React and Tailwind classes */
