@@ -6,6 +6,10 @@ export default {
     extend: {
       colors: {
         // Developer Mode
+        actionTo: "#8e2de2",
+        actionFrom: "#4a00e0",
+        actionToDark: "#5e1d9c",
+        actionFromDark: "#2c0085",
         devPrimary: "#141E61",
         devSecondary: "#00BFA6",
         devText: "#C4C4C4",

@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "https://i.postimg.cc/fbnRTX64/6502423.jpg",
+    "title": "Web Development",
+    "description": "Expertise in HTML, CSS, JavaScript, and frameworks like React. Proficient in backend technologies such as Node.js and databases like MongoDB."
+  },
+  {
+    "icon": "https://img.freepik.com/premium-vector/code-screen-laptop-isolated-yellow_163786-595.jpg?w=2000",
+    "title": "Programming",
+    "description": "Skilled in various programming languages including JavaScript, Python, Java, and C++. Problem-solving and algorithmic skills for efficient solutions."
+  },
+  {
+    "icon": "https://cdn-icons-png.flaticon.com/512/4094/4094790.png",
+    "title": "UI/UX Design",
+    "description": "Deep understanding of user-centered design. Ability to create wireframes, mockups, and prototypes. Focus on enhancing user experience through intuitive design."
+  },
+  {
+    "icon": "data:image/png;base64,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",
+    "title": "Website Design",
+    "description": "Comprehensive knowledge of UI/UX principles. Proficiency in design tools like Figma and Adobe XD. Ability to create visually stunning and user-friendly websites."
+  },
+  {
+    "icon": "https://previews.123rf.com/images/moremarinka/moremarinka1410/moremarinka141000002/32518439-brushes-and-palette-with-paints-vector-illustration.jpg",
+    "title": "Arts and Paintings",
+    "description": "Skilled artist proficient in various painting techniques. Experience in creating digital and traditional artwork. Passionate about expressing creativity through art."
+  }
+]

@@ -1,27 +1,32 @@
 import React from "react";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import Logo from "../../assets/images/logo.png";
+import { motion } from "framer-motion";
 import ToggleButton from "../ToggleButton/ToggleButton";
 
 function Navbar({ theme, handleThemeSwitch }) {
   return (
-    <div className="w-full bg-white dark:bg-black px-10 py-2 flex justify-between items-center">
-      <div className="">
-        <h1 className="text-3xl font-semibold font-poppins">flip360</h1>
+    <motion.div
+      initial={{ opacity: 0, y: "-70px" }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.25 }}
+      className="w-full bg-white shadow-md py-3 flex justify-between items-center relative z-[999]"
+    >
+      <div className="mx-5 font-poppins font-semibold">
+        <button className="bg-gradient-to-r from-actionTo to-actionFrom text-white px-5 py-3 rounded-md hover:from-actionToDark hover:to-actionFromDark">
+          Download CV
+        </button>
       </div>
-      <div className="flex gap-5">
-        <h2 className="">Home</h2>
-        <h2 className="">Contact</h2>
+      <div className="absolute w-full flex justify-center">
+        <img
+          src={Logo}
+          alt="logo"
+          className="w-16 dark:shadow-[#8e2de2_0px_3px_8px] rounded-full transition duration-1000"
+        />
       </div>
-      <div className="flex gap-2 items-center">
-        <div className="flex gap-2">
-          <FaInstagram />
-          <FaFacebook />
-        </div>
-        <div className="">
-          <ToggleButton theme={theme} handleThemeSwitch={handleThemeSwitch} />
-        </div>
+      <div className="mx-5">
+        <ToggleButton theme={theme} handleThemeSwitch={handleThemeSwitch} />
       </div>
-    </div>
+    </motion.div>
   );
 }
 
