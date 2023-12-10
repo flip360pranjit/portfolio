@@ -1,0 +1,78 @@
+[
+  {
+    "image": "https://i.postimg.cc/Bb80j2GF/c.png",
+    "name": "C/C++"
+  },
+  {
+    "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png",
+    "name": "Java"
+  },
+  {
+    "image": "https://i.postimg.cc/TPCMQtdm/python.png",
+    "name": "Python"
+  },
+  {
+    "image": "https://www.shareicon.net/download/2016/08/01/639868_development.ico",
+    "name": "HTML"
+  },
+  {
+    "image": "https://i.postimg.cc/MHh8VXWF/css.png",
+    "name": "CSS"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png",
+    "name": "Javascript"
+  },
+  {
+    "image": "https://cdn1.iconfinder.com/data/icons/education-set-3-3/74/15-512.png",
+    "name": "React.js"
+  },
+  {
+    "image": "https://i.postimg.cc/cJsGQpS0/node.png",
+    "name": "Node.js"
+  },
+  {
+    "image": "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
+    "name": "Express.js"
+  },
+  {
+    "image": "https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png",
+    "name": "Bootstrap"
+  },
+  {
+    "image": "https://i.postimg.cc/y8CHNJpJ/jquery.png",
+    "name": "jQuery"
+  },
+  {
+    "image": "https://mui.com/static/logo.png",
+    "name": "Material UI"
+  },
+  {
+    "image": "https://i.postimg.cc/4yHDfZzb/tailwind.png",
+    "name": "Tailwind CSS"
+  },
+  {
+    "image": "https://i.postimg.cc/KzjXWtjW/sass.png",
+    "name": "Sass"
+  },
+  {
+    "image": "https://i.postimg.cc/T3jX5RBt/mysql.png",
+    "name": "MySQL"
+  },
+  {
+    "image": "https://i.postimg.cc/d1fMcDTV/sqlite.png",
+    "name": "SQLite"
+  },
+  {
+    "image": "https://i.postimg.cc/sf8ztHp4/mongodb.png",
+    "name": "MongoDB"
+  },
+  {
+    "image": "https://i.postimg.cc/QxTDsgmG/firebase.png",
+    "name": "Firebase"
+  },
+  {
+    "image": "https://i.postimg.cc/CKpBgHqz/azure.png",
+    "name": "Azure"
+  }
+]

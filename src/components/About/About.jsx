@@ -1,14 +1,14 @@
 import React from "react";
 import skillLinks from "./skillLinks.json";
-import Reveal from "../Reveal/Reveal";
+import TextReveal from "../Reveal/TextReveal";
 
 function About() {
   return (
-    <div className="flex flex-col items-center w-full py-16 px-10 font-poppins">
-      <Reveal>
+    <div className="flex flex-col items-center w-full pb-16 font-poppins border-b border-actionTo px-10 font-poppins">
+      <TextReveal>
         <h2 className="font-semibold text-5xl text-center">What I do</h2>
-      </Reveal>
-      <Reveal>
+      </TextReveal>
+      <TextReveal>
         <h4 className="text-center text-[#555555] mt-5 mb-10">
           I am a passionate full-stack web developer, proficient in coding and
           design, dedicated to crafting seamless digital experiences. With an
@@ -16,7 +16,7 @@ function About() {
           technology and artistry, transforming ideas into functional and
           visually appealing web solutions.
         </h4>
-      </Reveal>
+      </TextReveal>
       {skillLinks.map((skill, index) => (
         <div
           key={index}

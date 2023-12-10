@@ -1,0 +1,64 @@
+[
+  {
+    "image": "https://i.postimg.cc/FzWM2P1q/Untitled-design-3.png",
+    "title": "Artistry",
+    "description": "A comprehensive web app for artists, offering a seamless platform to showcase artworks, manage commission orders, and streamline order processing, providing a one-stop solution for art professionals.",
+    "demo": "https://leetcode.com/flip360pranjit/",
+    "github": "https://github.com/flip360pranjit",
+    "techStack": [
+      "ReactJS",
+      "Sass",
+      "Tailwind CSS",
+      "Redux",
+      "Firebase",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB"
+    ],
+    "people": [
+      "https://example.com/people_image1.jpg",
+      "https://example.com/people_image2.jpg",
+      "https://example.com/people_image3.jpg"
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/FzWM2P1q/Untitled-design-3.png",
+    "title": "Weather App",
+    "description": "A real-time web-app implementing pagination to display the weather of over 30 Indian cities.",
+    "demo": "https://leetcode.com/flip360pranjit/",
+    "github": "https://github.com/flip360pranjit",
+    "techStack": [
+      "ReactJS",
+      "Javascript",
+      "NodeJS",
+      "ExpressJS",
+      "HTML",
+      "CSS",
+      "OpenWeatherMapApi"
+    ],
+    "people": [
+      "https://example.com/people_image4.jpg",
+      "https://example.com/people_image5.jpg"
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/FzWM2P1q/Untitled-design-3.png",
+    "title": "flipZone",
+    "description": "An ecommerce website where users can register, login, view products, add products to cart, place orders and sellers can upload their products which the admin can add to the products page and even delete an existing product.",
+    "demo": "https://leetcode.com/flip360pranjit/",
+    "github": "https://github.com/flip360pranjit",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB"
+    ],
+    "people": [
+      "https://example.com/people_image6.jpg",
+      "https://example.com/people_image7.jpg",
+      "https://example.com/people_image8.jpg"
+    ]
+  }
+]

@@ -24,7 +24,7 @@ const slideVariants = {
   },
 };
 
-function Reveal({ children }) {
+function TextReveal({ children }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -59,4 +59,4 @@ function Reveal({ children }) {
   );
 }
 
-export default Reveal;
+export default TextReveal;
