@@ -16,7 +16,10 @@ function Experience() {
           <div className="flex flex-col items-center lg:col-span-2 mt-10">
             <div className="grid grid-cols-2 minSm:grid-cols-3 lg:grid-cols-2 gap-7 mb-7">
               {logos.map((logo, index) => (
-                <div className={` ${index === 3 && "col-start-2 col-span-1"}`}>
+                <div
+                  key={index}
+                  className={` ${index === 3 && "col-start-2 col-span-1"}`}
+                >
                   <ScaleReveal>
                     <a
                       key={index}
@@ -38,7 +41,11 @@ function Experience() {
 
           <div className="text-[#fff] lg:col-span-3 lg:ml-16">
             {experiences.map((experience, index) => (
-              <ExperienceCard index={index} experience={experience} />
+              <ExperienceCard
+                key={index}
+                index={index}
+                experience={experience}
+              />
             ))}
           </div>
         </div>

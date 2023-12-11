@@ -3,12 +3,12 @@ import React from "react";
 function ExperienceCard({ experience, index }) {
   return (
     <div
-      className={`w-full bg-transparent cursor-pointer group perspective mt-7 h-[50vh] minSm${
+      className={`w-full bg-transparent cursor-pointer group perspective mt-7 h-[50vh] ${
         index === 0 || index === 3
-          ? "h-[130px]"
+          ? "minSm:h-[130px]"
           : index === 1
-          ? "h-[200px]"
-          : "h-[170px]"
+          ? "minSm:h-[200px]"
+          : "minSm:h-[170px]"
       }`}
     >
       <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
@@ -40,7 +40,9 @@ function ExperienceCard({ experience, index }) {
           >
             <ul className="text-xs maxLg:text-sm list-disc">
               {experience.description.map((des, i) => (
-                <li className="mt-3">{des}</li>
+                <li key={i} className="mt-3">
+                  {des}
+                </li>
               ))}
             </ul>
           </div>

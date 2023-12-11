@@ -23,7 +23,7 @@ function Skills() {
         </TextReveal>
         <div className="grid grid-cols-2 mobileSm:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-5 minSm:gap-10 mt-5">
           {skills.map((skill, index) => (
-            <ScaleReveal>
+            <ScaleReveal key={index}>
               <div
                 key={index}
                 className="group relative cursor-pointer rounded-full w-full flex justify-center items-center p-2 bg-gradient-to-r from-actionTo to-actionFrom hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-actionTo duration-500"
