@@ -13,7 +13,7 @@ function Skills() {
           </h2>
         </TextReveal>
         <TextReveal>
-          <h4 className="font-nunito text-xl text-center text-[#555555] my-5">
+          <h4 className="font-nunito text-xl text-center opacity-80 my-5">
             Encapsulating my proficiency in a wide spectrum of technologies,
             demonstrating a versatile skill set honed through experience. It
             showcases my capability to navigate diverse tools and frameworks,

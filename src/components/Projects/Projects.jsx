@@ -5,16 +5,16 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
-    <div className="border-b">
-      <div className="flex flex-col items-center w-full py-16 font-poppins z-[100] text-[#fff] px-[10%] relative">
+    <div className="border-b dark:border-none">
+      <div className="flex flex-col items-center w-full py-16 font-poppins z-[100] px-[10%] relative">
         <div className="bg-gradient-to-r from-actionTo to-actionFrom w-full h-1/2 absolute top-0 z-0"></div>
         <TextReveal>
-          <h2 className="font-semibold text-6xl text-center font-exo">
+          <h2 className="font-semibold text-6xl text-center font-exo text-[#fff]">
             My Portfolio
           </h2>
         </TextReveal>
         <TextReveal>
-          <h4 className="font-nunito text-center text-xl text-gray-100 my-5">
+          <h4 className="font-nunito text-center text-xl opacity-80 my-5 text-[#fff]">
             Showcasing a collection of my diverse works, including web
             applications, platforms, and software solutions, highlighting
             innovative tech stacks and problem-solving skills across various

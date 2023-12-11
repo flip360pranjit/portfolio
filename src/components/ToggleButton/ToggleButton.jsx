@@ -37,7 +37,7 @@ const ToggleButton = ({ theme, handleThemeSwitch }) => {
               initial="hidden"
               animate="visible"
               exit="exit"
-              className="text-white text-2xl z-30"
+              className="text-[#e8e1f2] text-2xl z-30"
             >
               <FaMoon />
             </motion.div>
@@ -56,7 +56,7 @@ const ToggleButton = ({ theme, handleThemeSwitch }) => {
             </motion.div>
           )}
         </AnimatePresence>
-        <span className="absolute block w-[50px] h-[50px] bg-[#f8f8f8] dark:bg-[#2b2b2b] rounded-full shadow-inner transition duration-1000"></span>
+        <span className="absolute block w-[50px] h-[50px] bg-[#e8e1f2] dark:bg-[#1b1129] rounded-full shadow-inner dark:shadow-white transition duration-1000"></span>
       </button>
     </div>
   );

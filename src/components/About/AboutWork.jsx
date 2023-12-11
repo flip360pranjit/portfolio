@@ -4,7 +4,7 @@ import TextReveal from "../Reveal/TextReveal";
 
 function AboutWork() {
   return (
-    <div className="flex flex-col items-center w-full pt-7 pb-16 px-10 font-poppins">
+    <div className="flex flex-col items-center w-full pt-7 pb-16 px-10 font-exo">
       <TextReveal>
         <h2 className="font-semibold font-exo text-5xl text-center">
           What I do
@@ -13,7 +13,7 @@ function AboutWork() {
       {skillLinks.map((skill, index) => (
         <div
           key={index}
-          className="bg-gradient-to-r from-[#e2bbff] to-[#f0dfff] w-full mt-7 px-10 py-5 rounded-md shadow-md flex gap-10"
+          className="bg-gradient-to-r from-[#e2bbff] to-[#f0dfff] dark:from-actionTo dark:to-actionFrom w-full mt-7 px-10 py-5 rounded-md shadow-md flex gap-10"
         >
           <img
             src={skill.icon}
@@ -22,9 +22,7 @@ function AboutWork() {
           />
           <div className="">
             <h4 className="text-2xl font-bold font-exo">{skill.title}</h4>
-            <p className="text-gray-700 mt-2 font-nunito">
-              {skill.description}
-            </p>
+            <p className="opacity-80 mt-2 font-nunito">{skill.description}</p>
           </div>
         </div>
       ))}

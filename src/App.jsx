@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className="bg-[#f8f8f8] min-h-screen">
+    <div className="bg-lightPrimary dark:bg-darkPrimary text-lightText dark:text-darkText duration-1000 min-h-screen">
       <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
       <Home />
       <Socials />

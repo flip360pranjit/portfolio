@@ -7,7 +7,7 @@ import ExperienceCard from "./ExperienceCard";
 
 function Experience() {
   return (
-    <div className="px-[10%] border-b">
+    <div className="px-[10%] border-b dark:border-none">
       <div className="flex flex-col items-center w-full pb-16 font-poppins">
         <TextReveal>
           <h2 className="font-semibold text-6xl text-center">Experience</h2>

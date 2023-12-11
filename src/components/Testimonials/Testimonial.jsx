@@ -8,7 +8,7 @@ function Testimonial() {
         alt="photo"
         className="w-32 rounded-full"
       />
-      <h2 className="text-center text-2xl text-[#141c3a]">
+      <h2 className="text-center text-2xl opacity-80">
         “Matt's a clear communicator with the tenacity and confidence to really
         dig in to tricky design scenarios and the collaborative friction that's
         needed to produce excellent work.”

@@ -7,7 +7,7 @@ function Hero() {
   const words = ["Full Stack Developer", "Programmer", "Creative Artist"];
 
   return (
-    <div className="px-[10%] border-b">
+    <div className="px-[10%] border-b dark:border-none">
       <div className="min-h-[88vh] flex flex-col sm:flex-row">
         <div className="w-full sm:w-1/2 h-full flex flex-col mt-16 sm:mt-28 z-10">
           <TextReveal>
@@ -19,8 +19,8 @@ function Hero() {
             </h1>
           </TextReveal>
           <TextReveal>
-            <h3 className="font-exo text-3xl text-gray-600 mt-5 font-bold">
-              <span>I'm a </span>
+            <h3 className="font-exo text-3xl mt-5 font-bold">
+              <span className="opacity-80">I'm a </span>
               <span className="bg-gradient-to-r from-actionTo to-actionFrom block sm:inline-block text-transparent bg-clip-text">
                 <Typewriter
                   words={words}
@@ -33,7 +33,7 @@ function Hero() {
             </h3>
           </TextReveal>
           <TextReveal>
-            <p className="font-nunito mt-10 text-[#0a0a0ae6]">
+            <p className="font-nunito mt-10 opacity-80">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

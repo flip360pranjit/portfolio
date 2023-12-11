@@ -29,13 +29,11 @@ export default {
         actionFrom: "#4a00e0",
         actionToDark: "#5e1d9c",
         actionFromDark: "#2c0085",
-        devPrimary: "#141E61",
-        devSecondary: "#00BFA6",
-        devText: "#C4C4C4",
+        darkPrimary: "#1b1129",
+        darkText: "#fff",
         // Artist Mode
-        artistPrimary: "#D62828",
-        artistSecondary: "#0077B6",
-        artistText: "#F5F5F5",
+        lightPrimary: "#f8f8f8",
+        lightText: "#000000",
       },
       fontFamily: {
         exo: ['"Exo 2"'],

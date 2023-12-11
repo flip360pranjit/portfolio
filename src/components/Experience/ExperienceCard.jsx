@@ -31,7 +31,7 @@ function ExperienceCard({ experience, index }) {
             </div>
           </div>
         </div>
-        <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden">
+        <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden rounded-md">
           <div
             key={index}
             className="absolute flex items-center bg-gradient-to-r from-actionTo to-actionFrom w-full h-full mb-7 px-10 py-5 rounded-md shadow-md"

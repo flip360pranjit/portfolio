@@ -22,7 +22,7 @@ function About() {
         </TextReveal>
       </div>
       <div className="min-h-screen flex flex-col justify-center items-center w-full">
-        <div className="shadow-lg w-[80%] min-h-screen bg-[#fff] rounded-xl relative -top-40">
+        <div className="shadow-lg w-[80%] min-h-screen bg-[#fff] dark:bg-darkPrimary dark:shadow-[#6c17e1] rounded-xl relative -top-40">
           <AboutWork />
         </div>
       </div>
