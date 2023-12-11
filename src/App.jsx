@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Socials from "./components/Socials/Socials";
+import Footer from "./components/Footer/Footer";
+import Collaborate from "./components/Contact/Collaborate";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -21,10 +23,12 @@ function App() {
   }
 
   return (
-    <div className="bg-[#f8f8f8] min-h-screen px-[10%]">
+    <div className="bg-[#f8f8f8] min-h-screen">
       <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
       <Home />
       <Socials />
+      <Collaborate />
+      <Footer />
     </div>
   );
 }

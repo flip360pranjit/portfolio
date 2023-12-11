@@ -12,7 +12,7 @@ function Socials() {
       initial={{ opacity: 0, y: "70px" }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.25 }}
-      className="fixed bottom-3 left-0 w-screen flex justify-center"
+      className="fixed bottom-3 left-0 w-screen flex justify-center z-[999]"
     >
       <motion.button
         onClick={() => setIsActive(!isActive)}
@@ -30,7 +30,7 @@ function Socials() {
           href={link.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full p-4 shadow-[#8e2de2_0px_9px_20px] absolute bottom-2"
+          className="rounded-full p-4 bg-[#fff] shadow-[#8e2de2_0px_9px_20px] absolute bottom-2"
           initial={{ x: 0, scale: 0 }}
           animate={{
             x: isActive ? link.x : 0,

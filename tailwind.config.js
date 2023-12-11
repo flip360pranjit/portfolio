@@ -38,7 +38,9 @@ export default {
         artistText: "#F5F5F5",
       },
       fontFamily: {
+        exo: ['"Exo 2"'],
         poppins: ["Poppins"],
+        nunito: ["Nunito"],
         "great-vibes": ['"Great Vibes"'],
         montserrat: ["Montserrat"],
         "open-sans": ['"Open Sans"'],
