@@ -7,11 +7,18 @@ import Skills from "../components/Skills/Skills";
 import AboutWork from "../components/About/AboutWork";
 import Contact from "../components/Contact/Contact";
 import Testimonials from "../components/Testimonials/Testimonials";
+import { useRef } from "react";
 
 function Home() {
+  const aboutRef = useRef(null);
+
+  function handleClick() {
+    aboutRef.current?.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <>
-      <Hero />
+      <Hero handleClick={handleClick} />
       <div className="mx-[10%] flex justify-center">
         <img
           src="https://mattfarley.ca/img/hero-devices.svg"
@@ -19,7 +26,7 @@ function Home() {
           className="max-w-[70vw]"
         />
       </div>
-      <About />
+      <About ref={aboutRef} />
       {/* <AboutWork /> */}
       <Experience />
       <Projects />

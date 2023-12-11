@@ -1,11 +1,15 @@
 import React from "react";
 import TextReveal from "../Reveal/TextReveal";
 import AboutWork from "./AboutWork";
+import { forwardRef } from "react";
 
-function About() {
+function About({}, ref) {
   return (
     <>
-      <div className="min-h-screen flex flex-col justify-center items-center w-full pb-16 bg-gradient-to-r from-actionTo to-actionFrom px-10 text-[#fff]">
+      <div
+        ref={ref}
+        className="min-h-screen flex flex-col justify-center items-center w-full pb-16 bg-gradient-to-r from-actionTo to-actionFrom px-10 text-[#fff]"
+      >
         <TextReveal>
           <h2 className="font-semibold font-exo text-6xl text-center">
             Hi, I’m Pranjit. Nice to meet you.
@@ -30,4 +34,4 @@ function About() {
   );
 }
 
-export default About;
+export default forwardRef(About);

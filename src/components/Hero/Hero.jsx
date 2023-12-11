@@ -2,8 +2,9 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import TextReveal from "../Reveal/TextReveal";
 import ScaleReveal from "../Reveal/ScaleReveal";
+import ScrollDown from "./ScrollDown";
 
-function Hero() {
+function Hero({ handleClick }) {
   const words = ["Full Stack Developer", "Programmer", "Creative Artist"];
 
   return (
@@ -45,6 +46,9 @@ function Hero() {
               Hire Me
             </button>
           </TextReveal>
+          <div className="absolute bottom-5">
+            <ScrollDown handleClick={handleClick} />
+          </div>
         </div>
         <div className="w-full sm:w-1/2 h-full flex justify-center items-center">
           <ScaleReveal>
