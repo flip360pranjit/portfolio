@@ -25,10 +25,10 @@ const modeVariants = {
 
 const ToggleButton = ({ theme, handleThemeSwitch }) => {
   return (
-    <div>
+    <div className="flex items-center">
       <button
         onClick={handleThemeSwitch}
-        className="w-[50px] h-[50px] rounded-full cursor-pointer flex justify-center items-center"
+        className="md:w-[10vh] h-[10vh] w-12 max-h-12 md:max-h-auto rounded-full cursor-pointer flex justify-center items-center"
       >
         <AnimatePresence mode="wait">
           {theme === "dark" && (
@@ -56,7 +56,7 @@ const ToggleButton = ({ theme, handleThemeSwitch }) => {
             </motion.div>
           )}
         </AnimatePresence>
-        <span className="absolute block w-[50px] h-[50px] bg-[#e8e1f2] dark:bg-[#1b1129] rounded-full shadow-inner dark:shadow-white transition duration-1000"></span>
+        <span className="absolute block md:w-[10vh] h-[10vh] w-12 max-h-12 md:max-h-auto bg-[#e8e1f2] dark:bg-[#1b1129] rounded-full shadow-inner dark:shadow-white transition duration-1000"></span>
       </button>
     </div>
   );

@@ -23,15 +23,19 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        maxMd: "940px",
+        maxLg: "1164px",
+      },
       colors: {
-        // Developer Mode
-        actionTo: "#8e2de2",
-        actionFrom: "#4a00e0",
+        // Dark Mode
         actionToDark: "#5e1d9c",
         actionFromDark: "#2c0085",
         darkPrimary: "#1b1129",
         darkText: "#fff",
-        // Artist Mode
+        // Light Mode
+        actionTo: "#8e2de2",
+        actionFrom: "#4a00e0",
         lightPrimary: "#f8f8f8",
         lightText: "#000000",
       },

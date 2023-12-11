@@ -18,14 +18,14 @@ function Navbar({ theme, handleThemeSwitch }) {
       initial={{ opacity: 0, y: "-70px" }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.25 }}
-      className="w-full py-3 flex justify-between items-center relative px-[8%]"
+      className="w-full h-[15vh] max-h-20 md:max-h-auto py-1 flex justify-between items-center relative px-[8%]"
     >
       {/* <div className="mx-5 font-poppins font-semibold">
         <button className="bg-gradient-to-r from-actionTo to-actionFrom text-white px-5 py-3 rounded-md hover:from-actionToDark hover:to-actionFromDark">
           Download CV
         </button>
       </div> */}
-      <div className="flex justify-center">
+      <div className="flex justify-center h-full">
         <AnimatePresence>
           {theme === "light" ? (
             <motion.img
@@ -37,7 +37,7 @@ function Navbar({ theme, handleThemeSwitch }) {
               animate="visible"
               exit="hidden"
               transition={{ duration: 1 }}
-              className="w-20 rounded-full"
+              className="rounded-full"
             />
           ) : (
             <motion.img
@@ -49,12 +49,12 @@ function Navbar({ theme, handleThemeSwitch }) {
               animate="visible"
               exit="hidden"
               transition={{ duration: 1 }}
-              className="w-20 rounded-full"
+              className="rounded-full"
             />
           )}
         </AnimatePresence>
       </div>
-      <div className="mx-5">
+      <div className="flex justify-center w-fit h-full py-1">
         <ToggleButton theme={theme} handleThemeSwitch={handleThemeSwitch} />
       </div>
     </motion.div>
