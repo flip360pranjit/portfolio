@@ -8,14 +8,16 @@ function Testimonial() {
         alt="photo"
         className="w-32 rounded-full"
       />
-      <h2 className="text-center text-2xl opacity-80">
+      <h2 className="text-center text-sm minSm:text-xl sm:text-2xl opacity-80">
         “Matt's a clear communicator with the tenacity and confidence to really
         dig in to tricky design scenarios and the collaborative friction that's
         needed to produce excellent work.”
       </h2>
       <div className="flex flex-col items-center gap-1">
-        <h4 className="text-xl font-semibold font-exo">Alex Martin</h4>
-        <h5 className="">Web Team Lead, The Artistry</h5>
+        <h4 className="text-lg minSm:text-xl font-semibold font-exo">
+          Alex Martin
+        </h4>
+        <h5 className="text-sm minSm:text-base">Web Team Lead, The Artistry</h5>
       </div>
     </div>
   );

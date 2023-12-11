@@ -5,7 +5,7 @@ import ScaleReveal from "../Reveal/ScaleReveal";
 import ScrollDown from "./ScrollDown";
 
 function Hero({ handleClick }) {
-  const words = ["Full Stack Developer", "Programmer", "Creative Artist"];
+  const words = ["Web Developer", "Programmer", "Creative Artist"];
 
   return (
     <div className="px-[10%] border-b dark:border-none">
@@ -46,13 +46,13 @@ function Hero({ handleClick }) {
               Hire Me
             </button>
           </TextReveal>
-          <div className="absolute bottom-10">
+          <div className="hidden md:block absolute bottom-10">
             <ScrollDown handleClick={handleClick} />
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center items-center pb-24">
           <ScaleReveal>
-            <div className="">
+            <div className="flex justify-center items-center">
               <img
                 src="https://i.postimg.cc/zvGPp8yC/profile.png"
                 // src="https://i.postimg.cc/vTp0GMNd/vector-profile.png"

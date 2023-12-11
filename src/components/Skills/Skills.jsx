@@ -8,12 +8,12 @@ function Skills() {
     <div className="px-[10%]">
       <div className="min-h-screen flex flex-col items-center w-full py-16 font-poppins">
         <TextReveal>
-          <h2 className="font-semibold font-exo text-6xl text-center">
+          <h2 className="font-semibold font-exo text-2xl minSm:text-3xl text-center">
             Skills
           </h2>
         </TextReveal>
         <TextReveal>
-          <h4 className="font-nunito text-xl text-center opacity-80 my-5">
+          <h4 className="font-nunito text-sm minSm:text-lg sm:text-xl text-center opacity-80 my-5">
             Encapsulating my proficiency in a wide spectrum of technologies,
             demonstrating a versatile skill set honed through experience. It
             showcases my capability to navigate diverse tools and frameworks,
@@ -21,7 +21,7 @@ function Skills() {
             applications.
           </h4>
         </TextReveal>
-        <div className="grid grid-cols-7 gap-5 mt-5">
+        <div className="grid grid-cols-2 mobileSm:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-5 minSm:gap-10 mt-5">
           {skills.map((skill, index) => (
             <ScaleReveal>
               <div

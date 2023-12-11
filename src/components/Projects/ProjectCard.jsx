@@ -10,9 +10,12 @@ function ProjectCard({ project }) {
       </div>
       <div className="mt-5">
         {project.techStack.map((tech, index) => (
-          <div className="inline-block rounded-full bg-gradient-to-r from-actionTo to-actionFrom p-0.5 m-1">
+          <div
+            key={index}
+            className="inline-block rounded-full bg-gradient-to-r from-actionTo to-actionFrom p-0.5 m-1"
+          >
             <div className="flex items-center justify-center bg-darkText dark:bg-lightText back py-1 px-2 rounded-full">
-              <h1 className="text-[10px] font-bold bg-gradient-to-r from-actionTo to-actionFrom inline-block text-transparent bg-clip-text">
+              <h1 className="text-[7px] minSm:text-[10px] font-bold bg-gradient-to-r from-actionTo to-actionFrom inline-block text-transparent bg-clip-text">
                 {tech}
               </h1>
             </div>

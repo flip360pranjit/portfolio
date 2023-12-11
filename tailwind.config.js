@@ -24,6 +24,8 @@ export default {
   theme: {
     extend: {
       screens: {
+        mobileSm: "350px",
+        minSm: "600px",
         maxMd: "940px",
         maxLg: "1164px",
       },
