@@ -52,7 +52,7 @@ function ScrollDown({ handleClick }) {
           height="120"
           stroke="#6c17e1"
           fill="none"
-          stroke-width="4"
+          strokeWidth="4"
         ></rect>
         <circle
           id="circle--shape"
