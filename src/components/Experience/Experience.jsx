@@ -12,6 +12,13 @@ function Experience() {
         <TextReveal>
           <h2 className="font-semibold text-3xl text-center">Experience</h2>
         </TextReveal>
+        <TextReveal>
+          <h4 className="font-nunito text-center text-sm minSm:text-lg sm:text-xl opacity-80 my-5">
+            Varied roles in esteemed companies molded my skills across web
+            development and design, enriching my expertise through impactful
+            projects and diverse teams.
+          </h4>
+        </TextReveal>
         <div className="grid grid-cols-1 lg:grid-cols-5 items-center w-full mt-5">
           <div className="flex flex-col items-center lg:col-span-2 mt-10">
             <div className="grid grid-cols-2 minSm:grid-cols-3 lg:grid-cols-2 gap-7 mb-7">
