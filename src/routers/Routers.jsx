@@ -3,13 +3,29 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import ContactMe from "../pages/ContactMe";
 import Success from "../pages/Success";
+import { Navigate } from "react-router-dom";
+import { useState } from "react";
+
+function ProtectedRoute({ sent, children }) {
+  if (sent) return children;
+  else return <Navigate to={"/"} />;
+}
 
 function Routers() {
+  const [sent, setSent] = useState(false);
+
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<ContactMe />} />
-      <Route path="/success" element={<Success />} />
+      <Route path="/" element={<Home setSent={setSent} />} />
+      <Route path="/contact" element={<ContactMe setSent={setSent} />} />
+      <Route
+        path="/success"
+        element={
+          <ProtectedRoute sent={sent}>
+            <Success />
+          </ProtectedRoute>
+        }
+      />
     </Routes>
   );
 }

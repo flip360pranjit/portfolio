@@ -8,9 +8,14 @@ import AboutWork from "../components/About/AboutWork";
 import Contact from "../components/Contact/Contact";
 import Testimonials from "../components/Testimonials/Testimonials";
 import { useRef } from "react";
+import { useEffect } from "react";
 
-function Home() {
+function Home({ setSent }) {
   const aboutRef = useRef(null);
+
+  useEffect(() => {
+    setSent(false); // Setting sent to false on component mount
+  }, []);
 
   function handleClick() {
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });

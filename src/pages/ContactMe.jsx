@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function ContactMe() {
+function ContactMe({ setSent }) {
   const formRef = useRef();
   const navigate = useNavigate();
 
@@ -28,6 +28,7 @@ function ContactMe() {
           // console.log(result);
           // console.log(result.text);
           setLoading(false);
+          setSent(true);
           navigate("/success");
         },
         (error) => {
