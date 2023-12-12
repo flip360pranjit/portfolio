@@ -7,38 +7,24 @@
     "y": "0px"
   },
   {
-    "name": "CodeChef",
-    "url": "https://www.codechef.com/users/flip360pranjit",
-    "icon": "https://img.icons8.com/color/48/000000/codechef.png",
-    "x": "-161.8px",
-    "y": "-117.557px"
-  },
-  {
-    "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/pranjit-kakoti-493028229/",
-    "icon": "https://img.icons8.com/color/48/000000/linkedin.png",
-    "x": "-61.8034px",
-    "y": "-190.2113px"
-  },
-  {
     "name": "GitHub",
     "url": "https://github.com/flip360pranjit",
     "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-    "x": "61.8034px",
-    "y": "-190.2113px"
-  },
-  {
-    "name": "Codeforces",
-    "url": "https://codeforces.com/profile/flip360pranjit",
-    "icon": "https://cdn.iconscout.com/icon/free/png-256/free-code-forces-3521352-2944796.png",
-    "x": "161.8px",
-    "y": "-117.557px"
+    "x": "-173.205px",
+    "y": "-100px"
   },
   {
     "name": "LeetCode",
     "url": "https://leetcode.com/flip360pranjit/",
     "icon": "https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3628885-3030025.png",
-    "x": "200px",
-    "y": "0px"
+    "x": "-100px",
+    "y": "-173.205px"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/pranjit-kakoti-493028229/",
+    "icon": "https://img.icons8.com/color/48/000000/linkedin.png",
+    "x": "0px",
+    "y": "-200px"
   }
 ]

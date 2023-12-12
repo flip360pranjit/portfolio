@@ -6,7 +6,7 @@ import ScaleReveal from "../Reveal/ScaleReveal";
 function Skills() {
   return (
     <div className="px-[10%]">
-      <div className="min-h-screen flex flex-col items-center w-full py-16 font-poppins">
+      <div className="flex flex-col items-center w-full py-16 font-poppins">
         <TextReveal>
           <h2 className="font-semibold font-exo text-2xl minSm:text-3xl text-center">
             Skills
