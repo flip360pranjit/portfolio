@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Socials from "./components/Socials/Socials";
 import Footer from "./components/Footer/Footer";
 import Collaborate from "./components/Contact/Collaborate";
+import Routers from "./routers/Routers";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -25,7 +26,7 @@ function App() {
   return (
     <div className="bg-lightPrimary dark:bg-darkPrimary text-lightText dark:text-darkText duration-1000 min-h-screen">
       <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
-      <Home />
+      <Routers />
       <Socials />
       <Collaborate />
       <Footer />
