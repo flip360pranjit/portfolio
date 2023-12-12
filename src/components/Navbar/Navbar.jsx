@@ -54,13 +54,24 @@ function Navbar({ theme, handleThemeSwitch }) {
       </Link>
       <div className="flex minSm:gap-5 items-center">
         <div className="mx-5 font-poppins font-semibold">
-          <a
+          <motion.a
+            initial={{
+              backgroundImage:
+                "linear-gradient(to bottom right, #8e2de2, #4a00e0)",
+              color: "#fff",
+            }}
+            whileHover={{
+              backgroundImage:
+                "linear-gradient(to bottom right, #5e1d9c, #2c0085)",
+              color: "#fff",
+            }}
+            transition={{ duration: 0.5 }}
             href={resume}
             download="CV_Pranjit Kakoti"
-            className="bg-gradient-to-r from-actionTo to-actionFrom text-white px-3 minSm:px-5 py-3 rounded-full minSm:rounded-md hover:from-actionToDark hover:to-actionFromDark"
+            className="px-3 minSm:px-5 py-3 rounded-full minSm:rounded-md"
           >
             <span className="hidden minSm:inline-block">Download</span> CV
-          </a>
+          </motion.a>
         </div>
         <div className="flex justify-center w-fit h-full py-1">
           <ToggleButton theme={theme} handleThemeSwitch={handleThemeSwitch} />

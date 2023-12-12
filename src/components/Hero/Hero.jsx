@@ -3,6 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import TextReveal from "../Reveal/TextReveal";
 import ScaleReveal from "../Reveal/ScaleReveal";
 import ScrollDown from "./ScrollDown";
+import { motion } from "framer-motion";
 
 function Hero({ handleClick }) {
   const words = ["Web Developer", "Programmer", "Creative Artist"];
@@ -42,9 +43,22 @@ function Hero({ handleClick }) {
             </p>
           </TextReveal>
           <TextReveal>
-            <button className="bg-gradient-to-r from-actionTo to-actionFrom px-7 maxLg:px-10 py-2 maxLg:py-3 mt-5 rounded-full text-white text-base maxLg:text-xl font-poppins font-bold hover:from-actionToDark hover:to-actionFromDark">
+            <motion.button
+              initial={{
+                backgroundImage:
+                  "linear-gradient(to bottom right, #8e2de2, #4a00e0)",
+                color: "#fff",
+              }}
+              whileHover={{
+                backgroundImage:
+                  "linear-gradient(to bottom right, #5e1d9c, #2c0085)",
+                color: "#fff",
+              }}
+              transition={{ duration: 0.5 }}
+              className="px-7 maxLg:px-10 py-2 maxLg:py-3 mt-5 rounded-full text-white text-base maxLg:text-xl font-nunito font-bold"
+            >
               Hire Me
-            </button>
+            </motion.button>
           </TextReveal>
           <div className="hidden md:block absolute bottom-10">
             <ScrollDown handleClick={handleClick} />

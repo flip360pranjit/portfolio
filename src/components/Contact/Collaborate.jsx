@@ -1,5 +1,6 @@
 import React from "react";
 import { FaRegHandPeace } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Collaborate() {
   return (
@@ -14,10 +15,23 @@ function Collaborate() {
         </div>
         <div className="text-center md:text-right">
           <div className="bg-gradient-to-r from-actionTo to-actionFrom inline-block rounded-full">
-            <button className="bg-[#141c3a] px-5 minSm:px-10 py-2 m-1 rounded-full flex gap-2 items-center text-sm minSm:text-lg hover:bg-gradient-to-r hover:from-actionTo hover:to-actionFrom">
+            <motion.button
+              initial={{
+                backgroundImage:
+                  "linear-gradient(to bottom right, #141c3a, #141c3a)",
+                color: "#fff",
+              }}
+              whileHover={{
+                backgroundImage:
+                  "linear-gradient(to bottom right, #8e2de2, #4a00e0)",
+                color: "#fff",
+              }}
+              transition={{ duration: 0.5 }}
+              className="px-5 minSm:px-12 py-2 m-1 rounded-full flex gap-2 items-center text-sm minSm:text-xl"
+            >
               <FaRegHandPeace />
               Let's do this
-            </button>
+            </motion.button>
           </div>
         </div>
       </div>
