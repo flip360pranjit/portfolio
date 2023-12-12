@@ -64,7 +64,7 @@ function ContactMe({ setSent }) {
                     id="name"
                     autoComplete="name"
                     placeholder="Full Name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 dark:placeholder:text-[#fff] focus:ring-2 focus:ring-inset focus:ring-[#822efe] sm:leading-6 text-2xl dark:bg-[#6c6675]"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-[#4c17e1] placeholder:text-gray-400 dark:placeholder:text-[#fff] focus:ring-2 focus:ring-inset focus:ring-[#822efe] sm:leading-6 text-2xl dark:bg-[#6c6675]"
                   />
                 </div>
                 <div className="">
@@ -75,7 +75,7 @@ function ContactMe({ setSent }) {
                     id="email"
                     autoComplete="email"
                     placeholder="Email"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 dark:placeholder:text-[#fff] focus:ring-2 focus:ring-inset focus:ring-[#822efe] sm:leading-6 text-2xl dark:bg-[#6c6675]"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-[#4c17e1] placeholder:text-gray-400 dark:placeholder:text-[#fff] focus:ring-2 focus:ring-inset focus:ring-[#822efe] sm:leading-6 text-2xl dark:bg-[#6c6675]"
                   />
                 </div>
                 <div className="md:col-span-2">
@@ -86,7 +86,7 @@ function ContactMe({ setSent }) {
                     id="message"
                     placeholder="Message"
                     rows={10}
-                    className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 dark:placeholder:text-[#fff] focus:ring-2 focus:ring-inset focus:ring-[#822efe] sm:leading-6 text-2xl dark:bg-[#6c6675]"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-[#4c17e1] placeholder:text-gray-400 dark:placeholder:text-[#fff] focus:ring-2 focus:ring-inset focus:ring-[#822efe] sm:leading-6 text-2xl dark:bg-[#6c6675]"
                   />
                 </div>
               </div>

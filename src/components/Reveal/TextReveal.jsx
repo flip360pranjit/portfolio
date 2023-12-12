@@ -39,7 +39,7 @@ function TextReveal({ children }) {
   }, [isInView]);
 
   return (
-    <div ref={ref} className="relative w-fit overflow-hidden">
+    <div ref={ref} className="relative w-fit overflow-hidden md:py-1">
       <motion.div
         variants={textVariants}
         initial="hidden"
