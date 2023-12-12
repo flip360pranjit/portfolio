@@ -7,6 +7,7 @@ import {
   FaRegEnvelope,
 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const icons = [
   <FaInstagram key="instagram" />,
@@ -20,11 +21,13 @@ function Footer() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-actionTo to-actionFrom flex justify-center items-center text-[#fff]">
       <div className="flex flex-col items-center m-10">
-        <img
-          src="https://i.postimg.cc/4NsnX9vy/Frame-3-1-removebg-preview.png"
-          alt=""
-          className="w-16 sm:w-24"
-        />
+        <Link to="/">
+          <img
+            src="https://i.postimg.cc/4NsnX9vy/Frame-3-1-removebg-preview.png"
+            alt=""
+            className="w-16 sm:w-24"
+          />
+        </Link>
         <h2 className="font-exo text-sm minSm:text-xl sm:text-2xl opacity-80 text-center">
           Living, learning, & leveling up one day at a time.
         </h2>
