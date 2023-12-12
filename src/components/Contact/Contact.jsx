@@ -1,5 +1,6 @@
 import React from "react";
 import { MdOutlineChat } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -14,10 +15,12 @@ function Contact() {
           explore potential opportunities together!
         </p>
         <div className="bg-[#fff] p-0.5 mt-12 rounded-full font-exo">
-          <button className="transition ease-in-out delay-150 text-sm minSm:text-base flex items-center gap-2 bg-[#6c17e1] px-5 minSm:px-10 py-3 rounded-full hover:bg-[#fff] hover:text-[#6c17e1] duration-50">
-            <MdOutlineChat className="text-2xl" />
-            Start a conversation
-          </button>
+          <Link to="/contact">
+            <button className="transition ease-in-out delay-150 text-sm minSm:text-base flex items-center gap-2 bg-[#6c17e1] px-5 minSm:px-10 py-3 rounded-full hover:bg-[#fff] hover:text-[#6c17e1] duration-50">
+              <MdOutlineChat className="text-2xl" />
+              Start a conversation
+            </button>
+          </Link>
         </div>
       </div>
     </div>
