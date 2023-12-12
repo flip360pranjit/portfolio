@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import ToggleButton from "../ToggleButton/ToggleButton";
 import { AnimatePresence } from "framer-motion";
 
+import resume from "../../assets/files/Pranjit_Kakoti_NIT_Silchar.pdf";
+
 const logoVariants = {
   hidden: {
     opacity: 0,
@@ -20,11 +22,6 @@ function Navbar({ theme, handleThemeSwitch }) {
       transition={{ duration: 0.5, delay: 0.25 }}
       className="w-full h-[15vh] max-h-20 md:max-h-auto py-1 flex justify-between items-center relative px-[8%]"
     >
-      {/* <div className="mx-5 font-poppins font-semibold">
-        <button className="bg-gradient-to-r from-actionTo to-actionFrom text-white px-5 py-3 rounded-md hover:from-actionToDark hover:to-actionFromDark">
-          Download CV
-        </button>
-      </div> */}
       <div className="flex justify-center h-full">
         <AnimatePresence>
           {theme === "light" ? (
@@ -54,8 +51,19 @@ function Navbar({ theme, handleThemeSwitch }) {
           )}
         </AnimatePresence>
       </div>
-      <div className="flex justify-center w-fit h-full py-1">
-        <ToggleButton theme={theme} handleThemeSwitch={handleThemeSwitch} />
+      <div className="flex minSm:gap-5 items-center">
+        <div className="mx-5 font-poppins font-semibold">
+          <a
+            href={resume}
+            download="Resume"
+            className="bg-gradient-to-r from-actionTo to-actionFrom text-white px-3 minSm:px-5 py-3 rounded-full minSm:rounded-md hover:from-actionToDark hover:to-actionFromDark"
+          >
+            <span className="hidden minSm:inline-block">Download</span> CV
+          </a>
+        </div>
+        <div className="flex justify-center w-fit h-full py-1">
+          <ToggleButton theme={theme} handleThemeSwitch={handleThemeSwitch} />
+        </div>
       </div>
     </motion.div>
   );
