@@ -55,7 +55,7 @@ function Navbar({ theme, handleThemeSwitch }) {
         <div className="mx-5 font-poppins font-semibold">
           <a
             href={resume}
-            download="Resume"
+            download="CV_Pranjit Kakoti"
             className="bg-gradient-to-r from-actionTo to-actionFrom text-white px-3 minSm:px-5 py-3 rounded-full minSm:rounded-md hover:from-actionToDark hover:to-actionFromDark"
           >
             <span className="hidden minSm:inline-block">Download</span> CV
