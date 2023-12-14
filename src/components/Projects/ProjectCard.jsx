@@ -1,6 +1,7 @@
 import React from "react";
 import { MdOutlineOpenInNew } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import { IoGitNetwork } from "react-icons/io5";
 
 function ProjectCard({ project }) {
   return (
@@ -24,6 +25,15 @@ function ProjectCard({ project }) {
       </div>
       <div className="mt-5 flex flex-col gap-3 font-exo">
         <h2 className="text-2xl font-bold">{project.title}</h2>
+
+        {project.status && (
+          <div className="flex">
+            <p className="bg-gray-200 text-gray-700 font-semibold px-5 py-1 rounded-md flex gap-1 items-center">
+              <IoGitNetwork />
+              In Development
+            </p>
+          </div>
+        )}
         <p className="text-sm opacity-80 font-nunito">{project.description}</p>
         <h5 className="flex gap-5 font-semibold text-actionTo">
           {project.demo && (

@@ -31,6 +31,7 @@
       "Firebase",
       "Stripe"
     ],
+    "status": "dev",
     "people": [
       "https://example.com/people_image4.jpg",
       "https://example.com/people_image5.jpg"
@@ -59,6 +60,7 @@
     "demo": "https://dummy-news-app.web.app/",
     "github": "https://github.com/flip360pranjit/News-App",
     "techStack": ["HTML", "CSS", "JavaScript", "ReactJS", "restAPI"],
+    "status": "dev",
     "people": []
   },
   {
@@ -76,6 +78,7 @@
       "CSS",
       "OpenWeatherMapApi"
     ],
+    "status": "dev",
     "people": []
   },
   {
@@ -93,6 +96,7 @@
       "Socket.io",
       "Tensorflow"
     ],
+    "status": "dev",
     "people": []
   },
   {
