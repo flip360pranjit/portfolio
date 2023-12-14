@@ -2,6 +2,8 @@ import React from "react";
 import TextReveal from "../Reveal/TextReveal";
 import projects from "./projects.json";
 import ProjectCard from "./ProjectCard";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -22,9 +24,29 @@ function Projects() {
           </h4>
         </TextReveal>
         <div className="grid md:grid-cols-2 maxLg:grid-cols-3 gap-10 w-full mt-5 z-[100]">
-          {projects.map((project, index) => (
+          {projects.slice(0, 3).map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
+        </div>
+        <div className="mt-5">
+          <Link to={"/projects"}>
+            <motion.button
+              initial={{
+                backgroundImage:
+                  "linear-gradient(to bottom right, #8e2de2, #4a00e0)",
+                color: "#fff",
+              }}
+              whileHover={{
+                backgroundImage:
+                  "linear-gradient(to bottom right, #5e1d9c, #2c0085)",
+                color: "#fff",
+              }}
+              transition={{ duration: 0.5 }}
+              className="px-7 py-2 m-1 rounded-full flex gap-2 items-center"
+            >
+              View all
+            </motion.button>
+          </Link>
         </div>
       </div>
     </div>

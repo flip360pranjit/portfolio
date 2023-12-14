@@ -1,10 +1,10 @@
 [
   {
-    "image": "https://i.postimg.cc/FzWM2P1q/Untitled-design-3.png",
+    "image": "https://i.postimg.cc/02Rmrtjx/theartistry.png",
     "title": "Artistry",
     "description": "A comprehensive web app for artists, offering a seamless platform to showcase artworks, manage commission orders, and streamline order processing, providing a one-stop solution for art professionals.",
-    "demo": "https://leetcode.com/flip360pranjit/",
-    "github": "https://github.com/flip360pranjit",
+    "demo": "https://theartistry.netlify.app/",
+    "github": "https://github.com/flip360pranjit/artistry-client",
     "techStack": [
       "ReactJS",
       "Sass",
@@ -15,18 +15,58 @@
       "ExpressJS",
       "MongoDB"
     ],
+    "people": []
+  },
+  {
+    "image": "https://i.postimg.cc/T3xrNkvQ/cashtrack.png",
+    "title": "CashTrack",
+    "description": "Empower your financial insights with our full-stack web app! Seamlessly analyze online payment transactions using APIs and unlock comprehensive analytics",
+    "demo": "",
+    "github": "https://github.com/flip360pranjit/CashTrack.client",
+    "techStack": [
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "ChartJS",
+      "Firebase",
+      "Stripe"
+    ],
     "people": [
-      "https://example.com/people_image1.jpg",
-      "https://example.com/people_image2.jpg",
-      "https://example.com/people_image3.jpg"
+      "https://example.com/people_image4.jpg",
+      "https://example.com/people_image5.jpg"
     ]
   },
   {
-    "image": "https://i.postimg.cc/FzWM2P1q/Untitled-design-3.png",
+    "image": "https://i.postimg.cc/d3dy4CWz/flipzone.png",
+    "title": "flipZone",
+    "description": "An ecommerce website where users can register, login, view products, add products to cart, place orders and sellers can upload their products which the admin can add to the products page and even delete an existing product.",
+    "demo": "https://www.youtube.com/watch?v=ZxLXIt82pH0",
+    "github": "https://github.com/flip360pranjit/flipZone",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB"
+    ],
+    "people": []
+  },
+  {
+    "image": "https://i.postimg.cc/TPYnfpwD/news-app.png",
+    "title": "News App",
+    "description": "Depicts a dummy news website with a predefined set of news data.",
+    "demo": "https://dummy-news-app.web.app/",
+    "github": "https://github.com/flip360pranjit/News-App",
+    "techStack": ["HTML", "CSS", "JavaScript", "ReactJS", "restAPI"],
+    "people": []
+  },
+  {
+    "image": "https://i.postimg.cc/G3sGL0cq/weather-app.png",
     "title": "Weather App",
     "description": "A real-time web-app implementing pagination to display the weather of over 30 Indian cities.",
-    "demo": "https://leetcode.com/flip360pranjit/",
-    "github": "https://github.com/flip360pranjit",
+    "demo": "https://weather-app-2c4e3.web.app/",
+    "github": "https://github.com/flip360pranjit/Weather-App",
     "techStack": [
       "ReactJS",
       "Javascript",
@@ -36,29 +76,76 @@
       "CSS",
       "OpenWeatherMapApi"
     ],
-    "people": [
-      "https://example.com/people_image4.jpg",
-      "https://example.com/people_image5.jpg"
-    ]
+    "people": []
   },
   {
-    "image": "https://i.postimg.cc/FzWM2P1q/Untitled-design-3.png",
-    "title": "flipZone",
-    "description": "An ecommerce website where users can register, login, view products, add products to cart, place orders and sellers can upload their products which the admin can add to the products page and even delete an existing product.",
-    "demo": "https://leetcode.com/flip360pranjit/",
-    "github": "https://github.com/flip360pranjit",
+    "image": "https://i.postimg.cc/1zCwtsnY/college-proctor.png",
+    "title": "College Proctor",
+    "description": "A one-step solution for every student, teacher and proctor that automates every step in any type of assessment from creating and taking a test to automated results and evaluation.",
+    "demo": "",
+    "github": "https://github.com/flip360pranjit/college-proctor",
+    "techStack": [
+      "ReactJS",
+      "Redux",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Socket.io",
+      "Tensorflow"
+    ],
+    "people": []
+  },
+  {
+    "image": "https://i.postimg.cc/Dw7XP81M/netflix-clone.png",
+    "title": "netflix clone",
+    "description": "Explore a Netflix-inspired website clone offering a vast library of movies and series, with the added feature of viewing trailers.",
+    "demo": "https://netflix-flip360.netlify.app/",
+    "github": "https://github.com/flip360pranjit/netflix-clone",
+    "techStack": ["JavaScript", "ReactJS", "Axios", "TMDB API"],
+    "people": []
+  },
+  {
+    "image": "https://i.postimg.cc/RF2t7dT7/hulk-cyber-bot.png",
+    "title": "Hulk Cyber Bot",
+    "description": "Displays dynamic Hulk animations through sprite images",
+    "demo": "",
+    "github": "",
+    "techStack": ["HTML", "CSS", "Sprite"],
+    "people": []
+  },
+  {
+    "image": "https://i.postimg.cc/zGkTsnJN/secrets.png",
+    "title": "Secrets",
+    "description": "Reveals personalized secret sentences to users upon successful login for enhanced privacy and security",
+    "demo": "",
+    "github": "https://github.com/flip360pranjit/Secrets",
+    "techStack": ["HTML", "CSS", "JavaScript", "EJS", "NodeJS", "ExpressJS"],
+    "people": []
+  },
+  {
+    "image": "https://i.postimg.cc/dt2CC8ZC/newsletter.png",
+    "title": "Newsletter",
+    "description": "A newsletter sign-up page that stores user details for Newsletter access with the help of Mailchimp API.",
+    "demo": "",
+    "github": "https://github.com/flip360pranjit/My-Newsletter-learning-Node.js-Express.js-APIs-and-Git",
     "techStack": [
       "HTML",
       "CSS",
-      "Javascript",
+      "JavaScript",
       "NodeJS",
       "ExpressJS",
-      "MongoDB"
+      "MailchimpAPI",
+      "Fontawesome"
     ],
-    "people": [
-      "https://example.com/people_image6.jpg",
-      "https://example.com/people_image7.jpg",
-      "https://example.com/people_image8.jpg"
-    ]
+    "people": []
+  },
+  {
+    "image": "https://i.postimg.cc/FRYck80F/instapaw.png",
+    "title": "Instapaw",
+    "description": "A website which lists the information regarding an app named Instapaw enlisting its features, user reviews and subscription information.",
+    "demo": "https://flip360pranjit.github.io/the-INSTAPAW-website-learning-Bootstrap/",
+    "github": "https://github.com/flip360pranjit/the-INSTAPAW-website-learning-Bootstrap",
+    "techStack": ["HTML", "CSS", "Bootstrap", "Google Fonts"],
+    "people": []
   }
 ]

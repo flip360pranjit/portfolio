@@ -6,6 +6,7 @@ import Success from "../pages/Success";
 import { Navigate } from "react-router-dom";
 import { useState } from "react";
 import ProjectPlanner from "../pages/ProjectPlanner";
+import ProjectsPage from "../pages/ProjectsPage";
 
 function ProtectedRoute({ sent, children }) {
   if (sent) return children;
@@ -18,6 +19,7 @@ function Routers() {
   return (
     <Routes>
       <Route path="/" element={<Home setSent={setSent} />} />
+      <Route path="/projects" element={<ProjectsPage />} />
       <Route path="/contact" element={<ContactMe setSent={setSent} />} />
       <Route
         path="/project-planner"
