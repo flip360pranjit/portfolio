@@ -1,50 +1,26 @@
 [
   {
-    "name": "John Smith",
-    "position": "CEO, ABC Company",
-    "image": "https://example.com/avatar1.jpg",
-    "content": "Pranjit's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work."
-  },
-  {
-    "name": "Emily Johnson",
-    "position": "Creative Director, XYZ Corporation",
-    "image": "https://example.com/avatar2.jpg",
-    "content": "Pranjit was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of designer you can trust with a project from start to finish."
-  },
-  {
-    "name": "Michael Davis",
-    "position": "Art Critic",
-    "image": "https://example.com/avatar3.jpg",
-    "content": "Pranjit's artistic brilliance shines through his designs. His unique blend of creativity and technical expertise delivers remarkable artworks that captivate the audience."
-  },
-  {
-    "name": "Sara Thompson",
-    "position": "Lead Developer, TechGenius Inc.",
-    "image": "https://example.com/avatar4.jpg",
+    "name": "Piyush Kumar",
+    "position": "Frontend Developer, NIT Silchar",
+    "image": "https://i.postimg.cc/hPb7ncmt/Untitled-design-7.png",
     "content": "Working with Pranjit was a rewarding experience. His expertise as a web developer added immense value to our project. Highly recommended!"
   },
   {
-    "name": "Alexandra Lee",
-    "position": "Art Director, DesignCo",
-    "image": "https://example.com/avatar5.jpg",
-    "content": "Pranjit's designs are a perfect blend of innovation and functionality. His attention to detail and commitment to quality set him apart as an outstanding designer."
+    "name": "Poornendu Bajpai",
+    "position": "Developer and Artist",
+    "image": "https://i.postimg.cc/qBK3m8Mn/Untitled-design-8.png",
+    "content": "Pranjit was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of designer you can trust with a project from start to finish."
   },
   {
-    "name": "David Miller",
-    "position": "Frontend Developer",
-    "image": "https://example.com/avatar6.jpg",
-    "content": "Pranjit's ability to understand complex requirements and translate them into user-friendly designs is impressive. He's a valuable asset to any team."
+    "name": "Aditya Gupta",
+    "position": "Technical Intern, Cisco",
+    "image": "https://i.postimg.cc/MK8jgvvL/Untitled-design-6.png",
+    "content": "Pranjit's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work."
   },
   {
-    "name": "Sophia Turner",
-    "position": "Marketing Manager",
-    "image": "https://example.com/avatar7.jpg",
-    "content": "Pranjit's designs have significantly elevated our brand identity. His creativity and dedication have contributed immensely to our marketing success."
-  },
-  {
-    "name": "Daniel White",
-    "position": "Freelance Artist",
-    "image": "https://example.com/avatar8.jpg",
-    "content": "As an artist, Pranjit's work speaks volumes. His ability to evoke emotions through his art is truly commendable and inspiring."
+    "name": "Nayan Pegu",
+    "position": "Art Critic and Scholar, NIT Silchar",
+    "image": "https://i.postimg.cc/dVsZtpRm/Untitled-design-4.png",
+    "content": "Pranjit's artistic brilliance shines through his designs. His unique blend of creativity and technical expertise delivers remarkable artworks that captivate the audience."
   }
 ]

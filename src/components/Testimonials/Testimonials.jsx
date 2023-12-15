@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import TextReveal from "../Reveal/TextReveal";
 import Testimonial from "./Testimonial";
+import testimonials from "./testimonials.json";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import './styles.css';
+
+// import required modules
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 function Testimonials() {
   return (
@@ -16,9 +28,31 @@ function Testimonials() {
             </h4>
           </TextReveal>
         </TextReveal>
-        <div className="flex justify-center mt-16">
-          <Testimonial />
-        </div>
+        {/* <div className="flex justify-center mt-16"> */}
+
+        <Swiper
+          loop={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          speed={2000}
+          pagination={{ clickable: true }}
+          navigation={true}
+          modules={[Pagination, Autoplay, Navigation]}
+          className="h-full w-full"
+        >
+          {testimonials.map((testimonial, index) => (
+            <SwiperSlide
+              key={index}
+              pagination={{ clickable: true }}
+              className="my-16"
+            >
+              <Testimonial testimonial={testimonial} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+        {/* </div> */}
       </div>
     </div>
   );
