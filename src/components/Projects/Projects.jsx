@@ -24,7 +24,7 @@ function Projects() {
           </h4>
         </TextReveal>
         <div className="grid md:grid-cols-2 maxLg:grid-cols-3 gap-10 w-full mt-5 z-[100]">
-          {projects.slice(0, 3).map((project, index) => (
+          {projects.slice(1, 4).map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
         </div>

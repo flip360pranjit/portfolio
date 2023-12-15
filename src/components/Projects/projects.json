@@ -1,5 +1,14 @@
 [
   {
+    "image": "https://i.postimg.cc/y8jH0GFY/portfolio.png",
+    "title": "Portfolio",
+    "description": "A personal portfolio showcasing my skills, projects, and experiences in web development, design, and artistry.",
+    "demo": "https://pranjitkakoti.netlify.app/",
+    "github": "https://github.com/flip360pranjit/portfolio",
+    "techStack": ["ReactJS", "JavaScript", "HTML", "Tailwind CSS", "SwiperJS"],
+    "people": []
+  },
+  {
     "image": "https://i.postimg.cc/02Rmrtjx/theartistry.png",
     "title": "Artistry",
     "description": "A comprehensive web app for artists, offering a seamless platform to showcase artworks, manage commission orders, and streamline order processing, providing a one-stop solution for art professionals.",
