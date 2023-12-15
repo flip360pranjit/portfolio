@@ -7,6 +7,7 @@ import { Navigate } from "react-router-dom";
 import { useState } from "react";
 import ProjectPlanner from "../pages/ProjectPlanner";
 import ProjectsPage from "../pages/ProjectsPage";
+import Error from "../pages/Error";
 
 function ProtectedRoute({ sent, children }) {
   if (sent) return children;
@@ -33,6 +34,7 @@ function Routers() {
           </ProtectedRoute>
         }
       />
+      <Route path="*" element={<Error />} />
     </Routes>
   );
 }
