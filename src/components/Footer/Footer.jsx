@@ -32,14 +32,46 @@ function Footer() {
           Living, learning, & leveling up one day at a time.
         </h2>
         <div className="w-full flex justify-center gap-3 sm:gap-5 mt-10 text-sm minSm:text-lg sm:text-xl">
-          {icons.map((icon, index) => (
-            <div
-              key={index}
-              className="border-2 border-[#fff] hover:bg-[#fff] hover:text-[#6c17e1] cursor-pointer rounded-full p-2 sm:p-3"
-            >
-              {icon}
-            </div>
-          ))}
+          <a
+            href="https://www.instagram.com/flip360_pranjit/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-[#fff] hover:bg-[#fff] hover:text-[#6c17e1] cursor-pointer rounded-full p-2 sm:p-3"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pranjit-kakoti-493028229/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-[#fff] hover:bg-[#fff] hover:text-[#6c17e1] cursor-pointer rounded-full p-2 sm:p-3"
+          >
+            <FaLinkedinIn />
+          </a>
+          <a
+            href="https://github.com/flip360pranjit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-[#fff] hover:bg-[#fff] hover:text-[#6c17e1] cursor-pointer rounded-full p-2 sm:p-3"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="mailto:pranjitkakotiofficial@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-[#fff] hover:bg-[#fff] hover:text-[#6c17e1] cursor-pointer rounded-full p-2 sm:p-3"
+          >
+            <FaRegEnvelope />
+          </a>
+          <a
+            href="tel:+919085922141"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-[#fff] hover:bg-[#fff] hover:text-[#6c17e1] cursor-pointer rounded-full p-2 sm:p-3"
+          >
+            <FaPhoneAlt />
+          </a>
         </div>
         <h4 className="font-nunito text-center text-sm minSm:text-lg mt-16 opacity-80">
           Developed by me @flip360pranjit
