@@ -57,6 +57,18 @@ function ProjectCard({ project }) {
             </a>
           )}
         </h5>
+        {project.people.length !== 0 && (
+          <div className="flex gap-3">
+            {project.people.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={"Person " + `${index}`}
+                className="w-10 rounded-full"
+              />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
