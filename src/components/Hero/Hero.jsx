@@ -62,7 +62,7 @@ function Hero({ handleClick }) {
               </motion.button>
             </Link>
           </TextReveal>
-          <div className="absolute bottom-10">
+          <div className="absolute bottom-16 md:bottom-10">
             <ScrollDown handleClick={handleClick} />
           </div>
         </div>
