@@ -37,10 +37,9 @@ function Hero({ handleClick }) {
           </TextReveal>
           <TextReveal>
             <p className="font-nunito mt-10 opacity-80 text-xs maxMd:text-sm maxLg:text-base text-center md:text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Welcome to my digital space! I'm a versatile software developer
+              and creative artist passionate about crafting immersive digital
+              experiences. Let's innovate together!
             </p>
           </TextReveal>
           <TextReveal>
