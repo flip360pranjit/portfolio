@@ -4,9 +4,9 @@ function ExperienceCard({ experience, index }) {
   return (
     <div
       className={`w-full bg-transparent cursor-pointer group perspective mt-7 h-[50vh] ${
-        index === 0 || index === 3
+        index === 3
           ? "minSm:h-[130px]"
-          : index === 1
+          : index === 0 || index === 1
           ? "minSm:h-[200px]"
           : "minSm:h-[170px]"
       }`}
